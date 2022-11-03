@@ -18,5 +18,6 @@ set smartcase
 set scrolloff=5
 set showmode
 set showcmd
+set ru
 filetype indent on
 syntax on
