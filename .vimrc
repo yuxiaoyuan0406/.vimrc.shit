@@ -127,6 +127,8 @@ endif
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+" Show line number
+set nu
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
@@ -192,7 +194,7 @@ set tw=500
 
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
+set nowrap "Wrap lines
 
 
 """"""""""""""""""""""""""""""
