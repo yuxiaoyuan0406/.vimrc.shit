@@ -71,5 +71,6 @@ set scrolloff=5
 set showmode
 set showcmd
 set ru
+set nowrap
 filetype indent on
 syntax on
