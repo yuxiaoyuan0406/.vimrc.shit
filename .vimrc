@@ -98,6 +98,12 @@ set smartcase
 " Highlight search results
 set hlsearch
 
+" Highlight matching parentheses
+set sm!
+
+" Highlight cursor line
+set cursorline
+
 " Makes search act like search in modern browsers
 set incsearch
 
@@ -109,6 +115,9 @@ set magic
 
 " Show matching brackets when text indicator is over them
 set showmatch
+
+" Show command
+set showcmd
 
 " How many tenths of a second to blink when matching brackets
 set mat=2
@@ -129,6 +138,9 @@ set foldcolumn=1
 
 " Show line number
 set nu
+
+" Auto complete act like IDE
+set completeopt=longest,menu
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
