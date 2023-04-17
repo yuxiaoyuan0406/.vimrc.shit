@@ -101,9 +101,6 @@ set hlsearch
 " Highlight matching parentheses
 set sm!
 
-" Highlight cursor line
-set cursorline
-
 " Makes search act like search in modern browsers
 set incsearch
 
@@ -157,7 +154,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme desert
+    colorscheme zellner
 catch
 endtry
 
@@ -177,6 +174,9 @@ set encoding=utf8
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
 
+" Highlight cursor line
+set cursorline
+hi cursorline cterm=NONE ctermbg=darkgrey ctermfg=NONE guibg=NONE guifg=NONE
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, backups and undo
