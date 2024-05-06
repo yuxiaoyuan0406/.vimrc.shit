@@ -186,6 +186,9 @@ set nobackup
 set nowb
 set noswapfile
 
+" Auto save
+let g:auto_save=1
+let g:auto_save_events=["InsertLeave","TextChanged","CompleteDone"]
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
