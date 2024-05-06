@@ -154,7 +154,7 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme zellner
+    colorscheme retrobox
 catch
 endtry
 
